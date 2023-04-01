@@ -190,6 +190,8 @@ def _obfuscate_password(url):
 UNIT_REDUCTIONS = {
     'degree_F': 'F',
     'degree_C': 'C',
+    'foot': 'ft',
+    'inch_per_hour': 'in',
     'inch': 'in',
     'mile_per_hour': 'mph',
     'mile_per_hour2': 'mph',
