@@ -190,8 +190,6 @@ def _obfuscate_password(url):
 UNIT_REDUCTIONS = {
     'degree_F': 'F',
     'degree_C': 'C',
-    'foot': 'ft',
-    'inch_per_hour': 'in',
     'inch': 'in',
     'mile_per_hour': 'mph',
     'mile_per_hour2': 'mph',
@@ -247,6 +245,8 @@ HA_SENSOR_UNIT = {
     'degree_C': '°C',
     'mbar': 'mbar',	
     'inch': 'in',
+    'foot': 'ft',
+    'inch_per_hour': 'in/h',
     'cm': 'cm',
     'meter': 'm',
     'km': 'km',
